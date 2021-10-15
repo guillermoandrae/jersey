@@ -12,8 +12,19 @@ body {
 
 #container {
     margin: 5% auto 0;
+    text-align: center;
 }
 
 #giphy {
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 991.98px) {
+    body {
+        font-size: 4em;
+    }
+
+    #giphy img {
+        max-width: 90%;
+    }
 }
